@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background: #131313;
+    z-index: 1000000;
+    box-shadow: 1px 1px 5px #f0f3ff;
+}
+.navbar .navbar-brand{
+    font-size: 1rem;
+    font-weight: 700;
+}
+#navbarSupportedContent > ul > li:nth-child(n) > a{
+    font-size: 1.1rem;
+    color: #fff;
+    padding: 0 0.8rem;
+    transition: all .3s ease;
+}
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover{
+    color: greenyellow;
+    letter-spacing: 2px;
+}
+#navbarSupportedContent > button{
+    background: greenyellow;
+    padding: 0.4rem 1.4rem;
+    font-weight: 600;
+    border-radius: 30px;
+}
+.mid{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.mid video{
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.hero{
+    position: relative;
+}
+.hero .btn{
+    background: greenyellow;
+    padding: 0.4rem 1.4rem;
+    font-weight: 600;
+    border-radius: 30px;
+}
+.hero .btn:hover{
+    background: rgba(172, 255, 47, 0.678);
+    color: #000;
+}
+.mid .hero p{
+    font-size: 13.80px;
+    width: 55%;
+    letter-spacing: 0.1rem;
+    padding-top: 1rem;
+
+}
+
+.about{
+ background: #000;
+}
+.about .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+.about .text h6{
+    color: greenyellow;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+.about .text h2{
+    color: #fff;
+    font-weight: 700;
+}
+.about .text p{
+    color: #fff;
+}
+.about .text a{
+    background: greenyellow;
+    transition: all .3s ease;
+}
+
+.about .text a:hover{
+    background: rgba(172, 255, 47, 0.692);
+    letter-spacing: 2px;
+}
+
+.about .img{
+    transition: all .3s ease;
+}
+.about .img:hover{
+    transform: scale(.90);
+}
+.discover{
+    background: #fff;
+   }
+   .discover .text{
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-start;
+       align-items: flex-start;
+       margin: auto;
+   }
+   .discover .text h6{
+       color: greenyellow;
+       font-weight: 800;
+       font-size: 1rem;
+       letter-spacing: 2px;
+   }
+   .discover .text h2{
+       color: #011921;
+       font-weight: 700;
+   }
+   .discover .text p{
+       color: #091921;
+   }
+   .discover .text a{
+       background: greenyellow;
+       transition: all .3s ease;
+   }
+
+.discover .text a:hover{
+    background: rgba(172, 255, 47, 0.692);
+    letter-spacing: 2px;
+}
+
+
+.discover .img{
+       transition: all .3s ease;
+ }
+   .discover .img:hover{
+       transform: scale(.90);
+     }
+
+
+
+
+
+ .carousel-inner .carousel-item{
+     height: 660px;
+     background-size: cover;
+     background-position: center center;
+ }    
+
+
+ .services{
+     background: #000;
+ }
+ 
+ .services .one{
+     border-radius: 20px;
+     border-top: 3px solid #131313;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     text-align: justify;
+     cursor: pointer;
+     transition: all .3s ease;
+ }
+ .services .one a{
+     background: greenyellow;
+     border-radius: 10px;
+     font-family: 'Oswald', sans-serif;
+     font-weight: 700;
+ }
+ .services .one:hover{
+     transform: scale(0.99);
+     box-shadow: inset 1px 2px 20px #091921;
+ }
+
+
+ 
+.sign{
+    background: #fff;
+   }
+   .sign .text{
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-start;
+       align-items: flex-start;
+       margin: auto;
+   }
+   .sign .text h6{
+       color: greenyellow;
+       font-weight: 800;
+       font-size: 1rem;
+       letter-spacing: 2px;
+   }
+   .sign .text h2{
+       color: #000;
+       font-weight: 700;
+   }
+   .sign .text p{
+       color: #091921;
+   }
+   .sign .text a{
+       background: #091921;
+       color: #fff;
+       transition: all .3s ease;
+   }
+   
+   .sign .text a:hover{
+       background: rgba(14, 17, 9, 0.692);
+       letter-spacing: 2px;
+   }
+   
+   .sign .img{
+       transition: all .3s ease;
+   }
+   .sign .img:hover{
+       transform: scale(.90);
+   }
+   .remove ul li a{
+       text-decoration: none;
+   }
+
+   .button button{
+       background: greenyellow;
+       border: none;
+       transition: all .3s ease;
+   }
+   .button button:hover{
+       background: rgba(172, 255, 47, 0.747);
+   }
+
+   .copy a{
+       text-decoration: none;
+       
+   }
+ 
